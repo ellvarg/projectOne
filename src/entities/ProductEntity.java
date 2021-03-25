@@ -5,11 +5,14 @@ public class ProductEntity {
     public String name;
     public Double price;
     public String description;
-    public int quantity;
+    public Integer quantity;
     public String category;
 
 
     //Construtores
+
+    public ProductEntity() {}
+
     public ProductEntity(String name, Double price, String description, int quantity, String category){
         this.name = name;
         this.price = price;
@@ -18,9 +21,6 @@ public class ProductEntity {
         this.category = category;
     }
 
-    public ProductEntity() {
-
-    }
 
     // Getters e Setters
     public String getName() {
