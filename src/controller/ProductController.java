@@ -56,7 +56,7 @@ public class ProductController {
         //Adiciona produto na lista
         listOfProducts.add(product);
 
-        System.out.println("");
+        System.out.println();
         System.out.println("Product " + name + " registered successfully!");
 
     }
@@ -75,7 +75,7 @@ public class ProductController {
 
         for (int i = 0; i < listOfProducts.size(); i++) {
             if (listOfProducts.get(i).getName().equals(nameOfProduct)) {
-                System.out.println("");
+                System.out.println();
                 System.out.println("Price: " + listOfProducts.get(i).getPrice());
                 System.out.println("Description: " + listOfProducts.get(i).getDescription());
 
